@@ -1,0 +1,65 @@
+.main{
+    margin: 50px;
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 9px;
+      
+}
+
+.previous:hover{
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.previous:active {
+    background-color: green;
+  }
+
+.next{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 9px;
+      
+}
+
+.next:hover{
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.next:active {
+    background-color: green;
+  }
+
+.timezone{
+    margin-top: 10px;
+}
+
+.time-dropdown{
+    width: 100%;
+}
+
+.second{
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.check-input{
+    display: flex;
+    justify-content: flex-start;
+    border-color: blueviolet;
+}
+
